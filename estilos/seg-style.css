@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+div#btn-back {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 25px;
+    border-radius: 5px 0 5px 0;
+}
+
+div span{
+    margin-right: 28px;
+}
+
+div#btn-back a{
+    line-height: 50%;
+    padding-right: 40px;
+}
+
+div#btn-back a button{
+    width: 35px;
+    height: 100%;
+    background-color: rgb(253, 111, 86);
+    border-style: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+div#location {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+div#location p {
+    margin-bottom: 20px;
+}
+
+div#location section > p{
+    color: rgb(253, 111, 86);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+div#location section article {
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(253, 111, 86);
+}
+
+footer h3{
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer article{
+    margin: auto;
+    width: 280px;
+    font-size: 1em;
+}
+
+footer img{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 25px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}

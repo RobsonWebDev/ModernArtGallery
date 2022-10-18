@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;
+    width: 250px;
+    margin: auto;
+}
+
+body > article{
+    text-align: center;
+    font-size: 1em;
+    width: 280px;
+    margin: auto;
+}
+
+main{
+    width: 300px;
+    margin: auto;
+}
+
+div#btn {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 42px;
+    margin: auto;
+}
+
+div.image img{
+    margin: auto;
+    width: 250px;
+}
+
+footer {
+    width: 300px;
+    margin: auto;
+}
