@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 600px) {
+
+    body > header{
+        background: none;
+        padding-left: 20px;
+    }
+    body header > div.image {
+        text-align: left;
+        position: absolute;
+    }
+
+    body h1, article, div#btn {
+        position: relative;
+    }
+
+    body h1 {
+        padding-left: 350px;
+    }
+
+    body > article{
+        width: 150px;
+        height: 200px;
+        padding-left: 250px;
+    }
+
+    body div#btn {
+        text-align: right;
+        margin-left: 200px;
+    }
+
+    main section {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
