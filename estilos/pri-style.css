@@ -10,9 +10,13 @@ body {
     width: 100%;
     display: flex;
     margin: auto;
-    margin: 15px;
     flex-direction: column;
     text-align: center;
+}
+
+header{
+    background-color: black;
+    width: 100%;
 }
 
 h1 {
