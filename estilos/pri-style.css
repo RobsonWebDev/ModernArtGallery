@@ -41,12 +41,13 @@ main{
 
 main section h2{
     margin: auto;
+    padding-left: 10px;
     text-align: left;
     font-size: 2em;
 }
 
 main section p{
-    width: 90vw;
+    width: 100%;
     margin: 20px;
     text-align: justify;
 }
@@ -56,7 +57,7 @@ div#btn {
     color: white;
     width: 180px;
     height: 42px;
-    margin: auto;
+    margin: 20px;
 }
 
 div#btn span{

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
     body > header{
         background: none;
@@ -20,19 +20,64 @@
     }
 
     body > article{
-        width: 150px;
+        width: 180px;
         height: 200px;
-        padding-left: 250px;
+        padding-left: 280px;
     }
 
     body div#btn {
-        text-align: right;
-        margin-left: 200px;
+        margin-left: 55vw;
     }
 
-    main section {
+    main section.section-main {
         display: flex;
+        padding: 20px;
     }
+
+    main section#flex-reverse {
+        padding: 20px;
+        flex-direction: row-reverse;
+    }
+
+    main > section > div#imageY {
+        width: 100%;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    main section#flex-reverse p  {
+        width: 300px;
+    }
+
+    main section#flex-colunm {
+        width: 100%;
+    }
+
+    div.image img{
+        width: 350px;
+    }
+
+    article.destaque {
+        width: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+
+    footer section#section-footer {
+        margin: auto;
+        width: 250px;
+    }
+
+    footer p{
+        padding-top: 85px;
+        width: 200px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
