@@ -79,6 +79,30 @@
         width: 200px;
     }
 
+    /*parte da segunda pagina*/
+
+    body > div#location {
+        width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    body > div#location p#title-div {
+        text-align: left;
+        width: 100px;
+        padding-right: 300px;
+        font-size: 1.8em;
+        font-weight: bolder;
+    }
+
+    body > div#location section {
+        text-align: left;
+        width: 250px;
+        height: 200px;
+        font-size: .8em;
+        padding-top: 40px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {

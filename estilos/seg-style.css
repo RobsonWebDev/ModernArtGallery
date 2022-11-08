@@ -41,6 +41,7 @@ div#btn-back a button{
     background-color: rgb(253, 111, 86);
     border-style: none;
     font-weight: 900;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
