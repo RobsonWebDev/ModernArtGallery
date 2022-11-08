@@ -9,6 +9,7 @@
     body header > div.image {
         text-align: left;
         position: absolute;
+        padding-left: 20px;
     }
 
     body h1, article, div#btn {
@@ -81,5 +82,27 @@
 }
 
 @media only screen and (min-width: 992px) {
+    body {
+        margin: auto;
+        width: 768px;
+    }
 
+    header {
+        margin-left: 50px;
+        background-color: black;
+        width: 100%;
+    }
+
+    body h1 {
+        padding-left: 400px;
+    }
+
+    body > article{
+
+        padding-left: 330px;
+    }
+
+    body div#btn {
+        margin-left: 455px;
+    }
 }
